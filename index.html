@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Proyecto demostrativo de una web para un estudio contable."
+  >
+
+  <title>Rivas & Asociados | Estudio contable — Demo</title>
+  <meta
+  name="description"
+  content="Proyecto demostrativo de un estudio contable: asesoramiento impositivo, contable y laboral para profesionales, comercios y pymes."
+>
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+
+  <header class="encabezado">
+  <nav class="navegacion contenedor" aria-label="Navegación principal">
+    <a class="marca" href="#inicio" aria-label="Rivas y Asociados, inicio">
+      <span class="marca-icono" aria-hidden="true">R.</span>
+
+      <span class="marca-texto">
+        Rivas & Asociados
+        <small>ESTUDIO CONTABLE</small>
+      </span>
+    </a>
+
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-expanded="false"
+      aria-controls="menu-principal"
+      hidden
+    >
+      Menú
+    </button>
+
+    <ul class="menu" id="menu-principal">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#servicios">Servicios</a></li>
+      <li><a href="#estudio">El estudio</a></li>
+      <li><a class="menu-contacto" href="#contacto">Conversemos ↗</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <main>
+  <section
+  id="inicio"
+  class="bienvenida"
+  aria-labelledby="titulo-inicio"
+>
+  <div class="bienvenida-texto">
+    <p class="etiqueta">ESTUDIO CONTABLE</p>
+
+    <h1 id="titulo-inicio">
+      Tu negocio crece.<br>
+      <em>Tu tranquilidad también.</em>
+    </h1>
+
+    <p class="descripcion">
+      Asesoramiento contable, impositivo y laboral para
+      profesionales, comercios y pymes.
+    </p>
+
+    <a class="boton" href="#contacto">
+      Consultar al estudio <span aria-hidden="true">↗</span>
+    </a>
+
+    <small class="nota-demo">
+      Proyecto demostrativo · Estudio ficticio
+    </small>
+  </div>
+
+  <div class="bienvenida-visual" aria-hidden="true">
+    <div class="visual-cabecera">
+      <span>RIVAS & ASOCIADOS</span>
+      <span>EST. CONTABLE</span>
+    </div>
+
+    <div class="visual-monograma">
+      R<span>.</span>
+    </div>
+
+    <div class="visual-pie">
+      <span>
+        Claridad para decidir.<br>
+        Confianza para avanzar.
+      </span>
+
+      <span class="visual-flecha">↗</span>
+    </div>
+  </div>
+</section>
+
+  <section
+    id="servicios"
+    class="servicios"
+    aria-labelledby="titulo-servicios"
+  >
+    <div class="contenedor">
+      <div class="seccion-intro">
+        <p class="etiqueta">NUESTROS SERVICIOS</p>
+
+        <h2 id="titulo-servicios">
+          Tus números en orden.<br>
+          Tu atención en lo que viene.
+        </h2>
+
+        <p class="seccion-descripcion">
+          Te acompañamos en las obligaciones de hoy y en las
+          decisiones que hacen crecer tu actividad.
+        </p>
+      </div>
+
+      <div class="servicios-grilla">
+        <article class="servicio">
+          <span class="servicio-numero" aria-hidden="true">01</span>
+          <h3>Monotributo y autónomos</h3>
+          <p>
+            Altas, recategorizaciones y seguimiento de tus
+            obligaciones. Te ayudamos a entender qué corresponde
+            hacer en cada etapa.
+          </p>
+        </article>
+
+        <article class="servicio">
+          <span class="servicio-numero" aria-hidden="true">02</span>
+          <h3>Liquidación de impuestos</h3>
+          <p>
+            Preparación de declaraciones juradas y organización
+            de vencimientos para mantener al día las obligaciones
+            de tu actividad.
+          </p>
+        </article>
+
+        <article class="servicio">
+          <span class="servicio-numero" aria-hidden="true">03</span>
+          <h3>Contabilidad y balances</h3>
+          <p>
+            Registraciones contables y preparación de estados
+            contables para que tengas una visión clara de
+            la situación de tu negocio.
+          </p>
+        </article>
+
+        <article class="servicio">
+          <span class="servicio-numero" aria-hidden="true">04</span>
+          <h3>Sueldos y cargas sociales</h3>
+          <p>
+            Liquidación de haberes y acompañamiento en las
+            tareas administrativas vinculadas a tu equipo
+            de trabajo.
+          </p>
+        </article>
+
+        <article class="servicio">
+          <span class="servicio-numero" aria-hidden="true">05</span>
+          <h3>Inicio de actividades</h3>
+          <p>
+            Orientación en las inscripciones y en la organización
+            inicial de tu emprendimiento, según las
+            características de tu proyecto.
+          </p>
+        </article>
+
+        <article class="servicio">
+          <span class="servicio-numero" aria-hidden="true">06</span>
+          <h3>Asesoramiento para pymes</h3>
+          <p>
+            Análisis de costos, planificación y seguimiento
+            para tomar decisiones con información
+            contable comprensible.
+          </p>
+        </article>
+      </div>
+
+      <div class="servicios-pie">
+        <p>¿No sabés por dónde empezar? Contanos sobre tu actividad.</p>
+        <a class="enlace-texto" href="#contacto">
+          Hablemos de tu negocio <span aria-hidden="true">↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+<section
+  id="estudio"
+  class="estudio"
+  aria-labelledby="titulo-estudio"
+>
+  <div class="contenedor estudio-grilla">
+    <div class="estudio-presentacion">
+      <p class="etiqueta">EL ESTUDIO</p>
+
+      <h2 id="titulo-estudio">
+        La contabilidad también<br>
+        se trata de confianza.
+      </h2>
+
+      <p class="seccion-descripcion">
+        En Rivas & Asociados proponemos una forma de trabajar
+        cercana: entender tu actividad, ordenar tus obligaciones
+        y acompañarte en cada decisión.
+      </p>
+
+      <p class="seccion-descripcion">
+        Queremos que sepas qué estás pagando, qué tenés que
+        presentar y cuáles son tus próximos pasos. Con
+        explicaciones claras y un contacto directo.
+      </p>
+
+      <a class="enlace-texto estudio-enlace" href="#contacto">
+        Contanos sobre tu proyecto <span aria-hidden="true">↗</span>
+      </a>
+    </div>
+
+    <div class="estudio-panel">
+      <h3>Un proceso claro, desde el primer contacto.</h3>
+
+      <ol class="pasos">
+        <li class="paso">
+          <span class="paso-numero" aria-hidden="true">01</span>
+          <div>
+            <h4>Nos contás sobre tu actividad</h4>
+            <p>
+              Conversamos sobre tu situación actual,
+              tus dudas y lo que necesitás resolver.
+            </p>
+          </div>
+        </li>
+
+        <li class="paso">
+          <span class="paso-numero" aria-hidden="true">02</span>
+          <div>
+            <h4>Definimos una propuesta</h4>
+            <p>
+              Acordamos el alcance del servicio, los honorarios
+              y la documentación necesaria para comenzar.
+            </p>
+          </div>
+        </li>
+
+        <li class="paso">
+          <span class="paso-numero" aria-hidden="true">03</span>
+          <div>
+            <h4>Te acompañamos en el día a día</h4>
+            <p>
+              Organizamos las tareas y mantenemos
+              el contacto para dar seguimiento a tu actividad.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<section class="preguntas" aria-labelledby="titulo-preguntas">
+  <div class="contenedor preguntas-grilla">
+    <div class="seccion-intro">
+      <p class="etiqueta">PREGUNTAS FRECUENTES</p>
+
+      <h2 id="titulo-preguntas">
+  Respuestas para<br>
+  dar el primer paso.
+</h2>
+
+      <p class="seccion-descripcion">
+        Algunas respuestas para que puedas dar
+        el próximo paso con tranquilidad.
+      </p>
+    </div>
+
+    <div class="preguntas-lista">
+      <details class="pregunta">
+        <summary>¿Puedo consultar si recién estoy empezando?</summary>
+        <p>
+          Sí. Podemos orientarte en las inscripciones y en la
+          organización inicial de tu actividad. En la primera
+          conversación revisamos en qué etapa estás y qué necesitás.
+        </p>
+      </details>
+
+      <details class="pregunta">
+        <summary>¿Cómo se definen los honorarios?</summary>
+        <p>
+          La propuesta se prepara según tu actividad, el volumen
+          de trabajo y los servicios que necesites. Antes de
+          comenzar, acordamos el alcance y los honorarios.
+        </p>
+      </details>
+
+      <details class="pregunta">
+        <summary>¿Puedo cambiar de contador?</summary>
+        <p>
+          Sí. Revisamos tu situación y coordinamos con vos la
+          documentación necesaria para dar continuidad
+          al trabajo.
+        </p>
+      </details>
+
+      <details class="pregunta">
+        <summary>¿La atención puede ser a distancia?</summary>
+        <p>
+          Podemos realizar consultas y compartir documentación
+          por medios digitales. Si algún trámite requiere una
+          instancia presencial, lo coordinamos previamente.
+        </p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<section
+  id="contacto"
+  class="contacto"
+  aria-labelledby="titulo-contacto"
+>
+  <div class="contenedor">
+    <div class="contacto-panel">
+      <p class="etiqueta">CONVERSEMOS</p>
+
+      <h2 id="titulo-contacto">
+        El próximo paso de tu negocio<br>
+        empieza con una conversación.
+      </h2>
+
+      <p class="contacto-descripcion">
+        Contanos a qué te dedicás y qué necesitás resolver.
+        Ese es el punto de partida.
+      </p>
+
+      <a
+        class="boton contacto-boton"
+        href="mailto:srodriguez.git@gmail.com?subject=Consulta%20desde%20la%20web"
+        aria-describedby="aviso-contacto"
+      >
+        Quiero una web similar <span aria-hidden="true">↗</span>
+      </a>
+
+      <p class="contacto-aviso" id="aviso-contacto">
+        Este estudio es ficticio. El contacto está dirigido al
+  desarrollador de esta demo, no ofrece atención contable.
+      </p>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+<footer class="pie">
+  <div class="contenedor pie-contenido">
+    <a class="marca" href="#inicio">
+      <span class="marca-icono" aria-hidden="true">R.</span>
+
+      <span class="marca-texto">
+        Rivas & Asociados
+        <small>ESTUDIO CONTABLE</small>
+      </span>
+    </a>
+
+    <p class="pie-nota">
+      Proyecto de portfolio · Estudio ficticio
+    </p>
+
+    <a class="enlace-texto" href="#inicio">
+      Volver arriba <span aria-hidden="true">↑</span>
+    </a>
+  </div>
+</footer>
+
+</body>
+</html>
